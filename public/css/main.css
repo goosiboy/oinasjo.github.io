@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    font-family: 'Source Sans Pro', 'Arial', sans-serif;
+    background-color: var(--main-bg-color);
+}
+
+/* --------------- HEADER --------------- */
+.grid .header #header h1 {
+    font-size: 4em;
+    font-weight: 200;
+    color: var(--main-font-color);
+    padding: 10px;
+    margin-left:20%;
+}
+
+/* --------------- CONTENT  --------------- */
+.grid .center #content {
+    color: var(--main-font-color);
+    width: 30%;
+    height: 100%;
+    margin: 0 auto;
+    min-width: 500px;
+}
+
+
+/********PICTURE CONTAINER********/
+div.pictureContainer {
+    margin:0; /* If you want no margin */
+    padding:0; /*if your want to padding */
+    background-repeat: no-repeat;
+    width: 100%;
+    float: left;
+}
+/***************************/
+div.pixel {
+    width:var(--image2-width); /*width of your image*/
+    height:var(--image2-height); /*height of your image*/
+    background-image:url('pixel_vector.jpg');
+    float:left;
+    background-size: var(--image2-width) var(--image2-height);
+    margin: 30px 0px 30px 0px;
+ }
+ /***************************/
+ div.illust {
+    width:var(--image1-width); /*width of your image*/
+    height:var(--image1-height); /*height of your image*/
+    background-image:url('pattern_type_illust.jpg');
+    float:left;
+    background-size: var(--image1-width) var(--image1-height);
+    margin: 30px 0px 30px 0px;
+ }
+/***************************/
+ div.tree {
+    width:var(--image3-width); /*width of your image*/
+    height:var(--image3-height); /*height of your image*/
+    background-image:url('tree_women_luigi.jpg');
+    float:left;
+    background-size: var(--image3-width) var(--image3-height);
+    margin: 30px 0px 30px 0px;
+ }
+/***************************/
+div.stopButton {
+    width:var(--stop-width); /*width of your image*/
+    height:var(--stop-height); /*height of your image*/
+    background-image:url('start.png');
+    float:right;
+    background-size: var(--stop-width) var(--stop-height);
+    margin-top: calc(var(--image1-width) - 280px);
+}
+div.stopButton:hover {
+    cursor: pointer;
+    width:var(--stop-width-hover); /*width of your image*/
+    height:var(--stop-height-hover); /*height of your image*/
+    background-size: var(--stop-width-hover) var(--stop-height-hover);
+    margin-top: calc(var(--image1-width) - (var(--stop-width-hover) - var(--stop-width)) - 280px);
+}
+/***************************/
+div#arrow1 {
+    width:var(--arrow-width); /*width of your image*/
+    height:var(--arrow-height); /*height of your image*/
+    background-image:url('arrow.png');
+    background-size: var(--arrow-width) var(--arrow-height);
+    margin: var(--arrow-margin);
+}
+
+div#arrow2 {
+    width:var(--arrow-width); /*width of your image*/
+    height:var(--arrow-height); /*height of your image*/
+    background-image:url('arrow.png');
+    background-size: var(--arrow-width) var(--arrow-height);
+    margin: var(--arrow-margin);
+}
+
+div#arrow3 {
+    width:var(--arrow-width); /*width of your image*/
+    height:var(--arrow-height); /*height of your image*/
+    background-image:url('arrow.png');
+    background-size: var(--arrow-width) var(--arrow-height);
+    margin: var(--arrow-margin);
+}

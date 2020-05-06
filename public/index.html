@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>       
+        <title>
+            Randomizer
+        </title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="./css/variables.css" />
+        <link rel="stylesheet" type="text/css" href="./css/grid.css" />
+        <link rel="stylesheet" type="text/css" href="./css/main.css" />
+        <link rel="stylesheet" type="text/css" href="./css/playerButton.css" />
+        <link rel="stylesheet" type="text/css" href="./css/overlayMenu.css" />
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">         
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="./js/templateLoader.js"></script>
+        <script src="./js/playerButtonHandler.js"></script>    
+        <script src="./js/constants.js"></script>
+    </head>
+
+    <body onload="TemplateLoader.initApp('overlayMenu', 'header', 'left', 'center', 'right', 'footer')">
+        <div class="grid">
+            <div class="overlayMenu"></div>
+            <div class="header"></div>               
+            <div class="left"></div> 
+            <div class="center"></div>              
+            <div class="right"></div> 
+            <div class="footer"></div> 
+        </div>
+    </body>
+
+</html>

@@ -1,0 +1,34 @@
+/* VARS */
+/* Colors: https://coolors.co/28536b-c2948a-7ea8be-f6f0ed-bbb193 */
+:root {
+    --main-bg-color: #f7f7f7;
+    --main-button-color: #c2948a;
+    --main-button-color-hover: #b3857b;
+    --main-button-color-active: #c2948a;
+    --main-font-color: #28536b;
+    --main-font-color-2: #7ea8be;
+    --main-button-color-2: #bbb193;
+    --main-gameMenu-color: #f0c9b7;
+    --main-gameMenu-border-color: #c79c88;
+    --gameMenuOverlay-bg-color: #f0d6ca9c;
+}
+
+:root {
+    --border-radius: 5px;
+}
+
+:root {
+    --image1-height: 140px;
+    --image1-width: 342px;
+    --image2-height: 130px;
+    --image2-width: 240px;
+    --image3-height: 140px;
+    --image3-width: 342px;
+    --stop-height: 60px;
+    --stop-width: 141px;
+    --stop-height-hover: 63px;
+    --stop-width-hover: 144px;
+    --arrow-height: 40px;
+    --arrow-width: 40px;
+    --arrow-margin: 0px 35px 0px 35px;
+}

@@ -1,0 +1,24 @@
+.grid .overlayMenu {
+    z-index: 1 !important;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--gameMenuOverlay-bg-color);
+}
+
+.grid .overlayMenu #settingsMenu {
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+
+    width:200px;
+    height: 300px;
+
+    transform: translate(-50%, -50%);
+
+}
+
+.grid .overlayMenu {
+    display: none;
+}

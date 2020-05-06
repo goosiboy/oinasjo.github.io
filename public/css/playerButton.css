@@ -1,0 +1,45 @@
+/* PlayerButton general stylings */
+.playerButton {
+    height: 160px;
+    background-color: var(--main-button-color);
+
+    padding: 10px;
+    margin: 10px;
+    margin-top: 25% !important;
+    text-align: center;
+    position: relative;
+}
+
+.playerButton:hover {
+    background-color: var(--main-button-color-hover);
+    cursor: pointer;
+}
+
+.playerButton:active {
+    background-color: var(--main-button-color-active);
+}
+
+/* Player button text */
+.playerButton span {
+      padding-top: 45px;
+      display: inline-block;
+      font-size: 2em;
+      font-weight: 500;
+}
+
+/* PlayerButton box-sizing fix */
+.playerButton {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* PlayerButton borders */
+.playerButton {
+    -webkit-box-shadow: inset 0px 0px 0px 1px var(--main-button-color);
+    -moz-box-shadow: inset 0px 0px 0px 1px var(--main-button-color);
+    box-shadow: inset 0px 0px 0px 1px var(--main-button-color);
+    border-radius: var(--border-radius);
+}
